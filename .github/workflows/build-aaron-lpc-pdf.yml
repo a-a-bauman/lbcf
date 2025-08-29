@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-latex-base
+          sudo apt-get install -y texlive-latex-recommended
           sudo apt-get install -y pandoc
 
       - name: Run PDF generation script
