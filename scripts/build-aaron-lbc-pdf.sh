@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 ROOT_DIR=.
 BUILD_DIR=build
