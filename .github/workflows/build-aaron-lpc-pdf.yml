@@ -25,6 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
+          sudo apt-get install -y texlive-latex-base
           sudo apt-get install -y pandoc
 
       - name: Run PDF generation script
@@ -35,5 +36,5 @@ jobs:
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
-          name: build/lbc1689_aab.pdf
-          path: output/lbc1689_aab.pdf
+          name: lbc1689_aab.pdf
+          path: build

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT_DIR=../..
+ROOT_DIR=.
 BUILD_DIR=build
 DOC_DIR=aaron
 # Define the output PDF file name
@@ -44,3 +44,4 @@ pandoc $TEMP_MD -o $OUTPUT_PDF
 rm $TEMP_MD
 
 echo "PDF generated: $OUTPUT_PDF"
+ls -al $BUILD_DIR
