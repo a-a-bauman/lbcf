@@ -55,8 +55,8 @@ echo "\n\n" >> $TEMP_MD
 # Add the addendums at the last pages
 echo "# Addendums" >> $TEMP_MD
 cat $DOC_DIR/Addendums.md >> $TEMP_MD
-pandoc $DOC_DIR/lbc1689-Addendums.md -o $PDF_DIR/lbc1689-Addendums.pdf
-pandoc $DOC_DIR/lbc1689-Addendums.md -o $HTML_DIR/lbc1689-Addendums.html
+pandoc $DOC_DIR/Addendums.md -o $PDF_DIR/lbc1689-Addendums.pdf
+pandoc $DOC_DIR/Addendums.md -o $HTML_DIR/lbc1689-Addendums.html
 
 echo "list $DOC_DIR"
 ls -alR $DOC_DIR
