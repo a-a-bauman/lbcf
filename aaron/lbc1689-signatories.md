@@ -119,5 +119,5 @@ _Pastor, Hock-Norton, Oxon_
 
 In the name of and on the behalf of the whole assembly.
 
-### [Back to Chapter Index](/1689)
-### [Of the Last Judgement](/1689/chapter-32)
+### [Back to Chapter Index](lbc1689-index)
+### [Of the Last Judgement](lbc1689-ch32)
