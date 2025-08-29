@@ -17,20 +17,20 @@ TEMP_MD="$BUILD_DIR/lbc1689_aab.md"
 
 cat $DOC_DIR/OpeningThoughts.md >> $TEMP_MD
 pandoc $DOC_DIR/OpeningThoughts.md -o $PDF_DIR/OpeningThoughts.pdf
-pandoc $DOC_DIR/OpeningThoughts.md -o $HTML_DIR/OpeningThoughts.html
+pandoc $DOC_DIR/OpeningThoughts.md -o $HTML_DIR/OpeningThoughts
 printf "\n\n" >> $TEMP_MD
 
 echo "# Index" > $TEMP_MD
 cat $DOC_DIR/lbc1689-index.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-index.md -o $PDF_DIR/lbc1689-index.pdf
-pandoc $DOC_DIR/lbc1689-index.md -o $HTML_DIR/lbc1689-index.html
+pandoc $DOC_DIR/lbc1689-index.md -o $HTML_DIR/lbc1689-index
 printf "\n\n" >> $TEMP_MD
 
 # Add the introduction
 echo "# Introduction" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-introduction.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-introduction.md -o $PDF_DIR/lbc1689-introduction.pdf
-pandoc $DOC_DIR/lbc1689-introduction.md -o $HTML_DIR/lbc1689-introduction.html
+pandoc $DOC_DIR/lbc1689-introduction.md -o $HTML_DIR/lbc1689-introduction
 echo "\n\n" >> $TEMP_MD
 
 # Concatenate all chapter files
@@ -42,21 +42,21 @@ for chapter in $DOC_DIR/lbc1689-ch*.md; do
     cat "$chapter" >> $TEMP_MD
     echo "\n\n" >> $TEMP_MD
     pandoc $chapter -o "$PDF_DIR/lbc1689-ch$padded_index.pdf"
-    pandoc $chapter -o "$HTML_DIR/lbc1689-ch$padded_index.html"
+    pandoc $chapter -o "$HTML_DIR/lbc1689-ch$padded_index"
 done
 
 # Add the signatories at the end
 echo "# Signatories" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-signatories.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-signatories.md -o $PDF_DIR/lbc1689-signatories.pdf
-pandoc $DOC_DIR/lbc1689-signatories.md -o $HTML_DIR/lbc1689-signatories.html
+pandoc $DOC_DIR/lbc1689-signatories.md -o $HTML_DIR/lbc1689-signatories
 echo "\n\n" >> $TEMP_MD
 
 # Add the addendums at the last pages
 echo "# Addendums" >> $TEMP_MD
 cat $DOC_DIR/Addendums.md >> $TEMP_MD
 pandoc $DOC_DIR/Addendums.md -o $PDF_DIR/lbc1689-Addendums.pdf
-pandoc $DOC_DIR/Addendums.md -o $HTML_DIR/lbc1689-Addendums.html
+pandoc $DOC_DIR/Addendums.md -o $HTML_DIR/lbc1689-Addendums
 
 echo "list $DOC_DIR"
 ls -alR $DOC_DIR
