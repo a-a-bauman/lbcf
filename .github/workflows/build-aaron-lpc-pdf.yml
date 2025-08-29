@@ -17,16 +17,31 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      # Cache apt packages
+      - name: Cache apt packages
+        uses: actions/cache@v3
+        id: cache-apt
         with:
-          node-version: '14'
+          path: |
+            /var/cache/apt/archives
+            /var/lib/apt/lists
+          key: ${{ runner.os }}-apt-texlive-pandoc-${{ hashFiles('.github/workflows/**') }}
+          restore-keys: |
+            ${{ runner.os }}-apt-texlive-pandoc-
+            ${{ runner.os }}-apt-
 
+      # Only install if cache miss
       - name: Install dependencies
+        if: steps.cache-apt.outputs.cache-hit != 'true'
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-latex-recommended
-          sudo apt-get install -y pandoc
+          sudo apt-get install -y texlive-latex-recommended pandoc
+
+      # Ensure packages are available even with cache hit
+      - name: Verify installations
+        run: |
+          which pandoc
+          which pdflatex
 
       - name: Run PDF generation script
         run: |
