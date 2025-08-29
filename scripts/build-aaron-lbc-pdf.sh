@@ -50,7 +50,7 @@ ls -al $BUILD_DIR
 # Convert the combined markdown file to PDF using pandoc
 #pandoc $TEMP_MD -o $OUTPUT_PDF
 
-zip $BUILD_dir/lbc1689_aab.zip $BUILD_DIR/*.pdf
+zip $BUILD_DIR/lbc1689_aab.zip $BUILD_DIR/*.pdf
 
 echo "PDF generated: $OUTPUT_PDF"
 ls -al $BUILD_DIR
