@@ -28,10 +28,11 @@ echo "\n\n" >> $TEMP_MD
 index=0
 for chapter in $DOC_DIR/lbc1689-ch*.md; do
     index=$((index + 1))
+    padded_index=$(printf "%02d" $index)
     echo "\newpage" >> $TEMP_MD
     cat "$chapter" >> $TEMP_MD
     echo "\n\n" >> $TEMP_MD
-    pandoc $chapter -o "$BUILD_DIR/libc1689-ch$index.pdf"
+    pandoc $chapter -o "$BUILD_DIR/libc1689-ch$padded_index.pdf"
 done
 
 # Add the signatories at the end
@@ -47,10 +48,9 @@ ls -al $DOC_DIR
 ls -al $BUILD_DIR
 
 # Convert the combined markdown file to PDF using pandoc
-pandoc $TEMP_MD -o $OUTPUT_PDF
+#pandoc $TEMP_MD -o $OUTPUT_PDF
 
-# Clean up the temporary markdown file
-rm $TEMP_MD
+zip $BUILD_dir/lbc1689_aab.zip $BUILD_DIR/*.pdf
 
 echo "PDF generated: $OUTPUT_PDF"
 ls -al $BUILD_DIR
