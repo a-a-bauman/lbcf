@@ -55,5 +55,5 @@ jobs:
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
-          name: lbc1689_aab.zip
-          path: build
+          name: lbc1689_aab
+          path: build*/*
