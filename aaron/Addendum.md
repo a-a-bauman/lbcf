@@ -1,4 +1,4 @@
-# Addendums to London Baptist Confession of 1689
+# Addendum to London Baptist Confession of 1689
 
 # Of Cessationism
 
@@ -15,8 +15,6 @@ CHURCHES AND INDIVIDUALS WHICH PROMOTE AND PRACTICE CHARISMATIC GIFTS
 SHOULD FIND ECCLESIASTICAL FELLOWSHIP IN OTHER ASSOCIATIONS WHICH SHARE
 THEIR VIEW ON THESE ISSUES.” (From statement by Fellowship of Independent Reformed
 Evangelicals, recommended by Todd)
-
----
 
 [^Add-1]: Acts 2:22, John 11:47-48, 2 Corinthians 12:12, Acts 2:43, 5:12, Romans 5:19, Hebrews 2:1-4, Deuteronomy 13:1-5, Deuteronomy 18:21-22
 
@@ -36,11 +34,9 @@ Evangelicals, recommended by Todd)
 
 [^Add-6]: Acts 20:7-12
 
----
+# Of Sexes and Marriage
 
-# Of Genders and Marriage
-
-God created male and female, two and only two genders. God fixes a person's gender at conception (actually sooner than that -- God knows and decress all things [^Add-Genders-1]). God has designed each gender as a human being that are created equally as image bearers before him [^Add-Genders-2] while at the same time each having distinct roles to serve God's purposes [^Add-Genders-3], normatively in a one flesh relationship as one husband and one wife [^Add-Genders-4] to fulfill God's purposes for them to exercise dominion over and fill the earth. [^Add-Genders-5]
+God created male and female, two and only two sexes. God fixes a person's sex at conception (actually sooner than that -- God knows and decress all things [^Add-Genders-1]). God has designed and created each human sex to equally be his image bearers[^Add-Genders-2] while at the same time each having distinct natures to serve God's purposes [^Add-Genders-3], normatively in a one flesh relationship as one husband and one wife [^Add-Genders-4] to fulfill God's purposes for them to exercise dominion over and fill the earth. [^Add-Genders-5]
 
 [^Add-Genders-1]: Isaiah 46:7
 
@@ -51,8 +47,6 @@ God created male and female, two and only two genders. God fixes a person's gend
 [^Add-Genders-4]: Genesis 2:18-25
 
 [^Add-Genders-5]: Genesis 1:28-31
-
----
 
 # Of the Importance of the Early Chapters in Genesis
 
@@ -89,8 +83,6 @@ All that to say this: if we took the first part of Genesis more seriously, we wo
 * Only those that repudiate self trust and run to God's appointed means of deliverance will be delivered from the wrath to come
 
 How much of the core issues of our time would be diagnosed and addressed if we understood and believed the opening chapters of Genesis at face value? How can one understand the gospel and appreciate it without knowing and understanding Genesis 1-9:17?
-
----
 
 # Of the Sabbath (the Lord's Day)
 
@@ -133,3 +125,5 @@ How much of the core issues of our time would be diagnosed and addressed if we u
       * Jesus pulled his disciples away for a season of rest because the demands of ministry wore on them (Mark 6:30-32)
     * The Sabbath finds its fulfillment in Christ as does all the law. True, but if any parts of the law are part of God's moral law, Christ's fulfillment of the moral law doesn't change the requirement for us to obey that lawy. After all, we are made in his image to reflect his character. Keeping the law in no way justifies. Rather, being justified, sanctified, and endwelt by God's Spirit, we now have the desire and ability to do what pleases God. Because the created order of things and the character of God remain, it is appropriate and fitting that in the NT, the Sabbath shifts to the Lord's Day -- the day when Christ rose from the dead. It provides a day for delighting in him, our resurrected Lord; being exhorted by other believers through singing and fellowship; being equipped by pastor teachers to do the work of the ministry; by anticipating the future perfect rest; by preparing to serve the Lord throughout the week; by acknowledging the goodness of the Lord's design to live in the reality of his wise created order. If the Lord's Day is not the Christian Sabbath, how can the church and its leaders have any expectations for Christians to assemble on that day?
     * Frankly, I find it odd and strange that we have to work so hard to defend the Lord's Day with fellow believers. Why wouldn't we find it a delight coming from a good and wise God for our benefit and his glory? Might our antagonism towards it explain part of the decline and the weakness and lethargy of Christianity in the West?
+
+### [Back to Chapter Index](lbc1689-index)

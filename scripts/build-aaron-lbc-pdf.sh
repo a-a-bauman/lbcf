@@ -20,7 +20,6 @@ pandoc $DOC_DIR/OpeningThoughts.md -o $PDF_DIR/OpeningThoughts.pdf
 pandoc $DOC_DIR/OpeningThoughts.md -o $HTML_DIR/OpeningThoughts
 printf "\n\n" >> $TEMP_MD
 
-echo "# Index" > $TEMP_MD
 cat $DOC_DIR/lbc1689-index.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-index.md -o $PDF_DIR/lbc1689-index.pdf
 pandoc $DOC_DIR/lbc1689-index.md -o $HTML_DIR/lbc1689-index
@@ -45,18 +44,16 @@ for chapter in $DOC_DIR/lbc1689-ch*.md; do
     pandoc $chapter -o "$HTML_DIR/lbc1689-ch$padded_index"
 done
 
-# Add the signatories at the end
 echo "# Signatories" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-signatories.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-signatories.md -o $PDF_DIR/lbc1689-signatories.pdf
 pandoc $DOC_DIR/lbc1689-signatories.md -o $HTML_DIR/lbc1689-signatories
 echo "\n\n" >> $TEMP_MD
 
-# Add the addendums at the last pages
 echo "# Addendums" >> $TEMP_MD
-cat $DOC_DIR/Addendums.md >> $TEMP_MD
-pandoc $DOC_DIR/Addendums.md -o $PDF_DIR/lbc1689-Addendums.pdf
-pandoc $DOC_DIR/Addendums.md -o $HTML_DIR/lbc1689-Addendums
+cat $DOC_DIR/Addendum.md >> $TEMP_MD
+pandoc $DOC_DIR/Addendum.md -o $PDF_DIR/lbc1689-Addendums.pdf
+pandoc $DOC_DIR/Addendum.md -o $HTML_DIR/lbc1689-Addendums
 
 echo "list $DOC_DIR"
 ls -alR $DOC_DIR

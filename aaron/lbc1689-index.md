@@ -1,5 +1,6 @@
-# The 1689 Baptist Confession of Faith
+# Index — The 1689 Baptist Confession of Faith
 
+## [Opening Thoughts](OpeningThoughts)
 ## [Introduction](lbc1689-introduction)
 ## [Of the Holy Scriptures](lbc1689-ch01)
 ## [Of God and the Holy Trinity](lbc1689-ch02)
@@ -34,3 +35,4 @@
 ## [Of the State of Man After Death, and of the Resurrection of the Dead](lbc1689-ch31)
 ## [Of the Last Judgement](lbc1689-ch32)
 ## [Signatories](lbc1689-signatories)
+## [Addendum](Addendum)
