@@ -17,19 +17,19 @@ TEMP_MD="$BUILD_DIR/lbc1689_aab.md"
 
 cat $DOC_DIR/OpeningThoughts.md >> $TEMP_MD
 pandoc $DOC_DIR/OpeningThoughts.md --output $PDF_DIR/OpeningThoughts.pdf
-pandoc $DOC_DIR/OpeningThoughts.md --to html --output $HTML_DIR/OpeningThoughts
+pandoc --standalone $DOC_DIR/OpeningThoughts.md --to html --output $HTML_DIR/OpeningThoughts
 printf "\n\n" >> $TEMP_MD
 
 cat $DOC_DIR/lbc1689-index.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-index.md --output $PDF_DIR/lbc1689-index.pdf
-pandoc $DOC_DIR/lbc1689-index.md --to html --output $HTML_DIR/lbc1689-index
+pandoc --standalone $DOC_DIR/lbc1689-index.md --to html --output $HTML_DIR/lbc1689-index
 printf "\n\n" >> $TEMP_MD
 
 # Add the introduction
 echo "# Introduction" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-introduction.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-introduction.md --output $PDF_DIR/lbc1689-introduction.pdf
-pandoc $DOC_DIR/lbc1689-introduction.md --to html --output $HTML_DIR/lbc1689-introduction
+pandoc --standalone $DOC_DIR/lbc1689-introduction.md --to html --output $HTML_DIR/lbc1689-introduction
 echo "\n\n" >> $TEMP_MD
 
 # Concatenate all chapter files
@@ -41,19 +41,19 @@ for chapter in $DOC_DIR/lbc1689-ch*.md; do
     cat "$chapter" >> $TEMP_MD
     echo "\n\n" >> $TEMP_MD
     pandoc $chapter --output "$PDF_DIR/lbc1689-ch$padded_index.pdf"
-    pandoc $chapter --to html --output "$HTML_DIR/lbc1689-ch$padded_index"
+    pandoc --standalone $chapter --to html --output "$HTML_DIR/lbc1689-ch$padded_index"
 done
 
 echo "# Signatories" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-signatories.md >> $TEMP_MD
 pandoc $DOC_DIR/lbc1689-signatories.md --output $PDF_DIR/lbc1689-signatories.pdf
-pandoc $DOC_DIR/lbc1689-signatories.md --to html --output $HTML_DIR/lbc1689-signatories
+pandoc --standalone $DOC_DIR/lbc1689-signatories.md --to html --output $HTML_DIR/lbc1689-signatories
 echo "\n\n" >> $TEMP_MD
 
 echo "# Addendums" >> $TEMP_MD
 cat $DOC_DIR/Addendum.md >> $TEMP_MD
 pandoc $DOC_DIR/Addendum.md --output $PDF_DIR/lbc1689-Addendums.pdf
-pandoc $DOC_DIR/Addendum.md --to html --output $HTML_DIR/lbc1689-Addendums
+pandoc --standalone $DOC_DIR/Addendum.md --to html --output $HTML_DIR/lbc1689-Addendums
 
 echo "list $DOC_DIR"
 ls -alR $DOC_DIR
