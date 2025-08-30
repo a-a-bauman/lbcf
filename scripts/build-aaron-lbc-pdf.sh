@@ -15,8 +15,8 @@ mkdir -p "$HTML_DIR"
 pandoc $DOC_DIR/OpeningThoughts.md --output $PDF_DIR/OpeningThoughts.pdf
 pandoc --standalone $DOC_DIR/OpeningThoughts.md --to html --output $HTML_DIR/OpeningThoughts
 
-pandoc $DOC_DIR/lbc1689-index.md --output $PDF_DIR/lbc1689-index.pdf
-pandoc --standalone $DOC_DIR/lbc1689-index.md --to html --output $HTML_DIR/lbc1689-index
+pandoc $DOC_DIR/lbc1689-toc.md --output $PDF_DIR/lbc1689-toc.pdf
+pandoc --standalone $DOC_DIR/lbc1689-toc.md --to html --output $HTML_DIR/lbc1689-toc
 
 # Add the introduction
 pandoc $DOC_DIR/lbc1689-introduction.md --output $PDF_DIR/lbc1689-introduction.pdf
@@ -38,7 +38,7 @@ pandoc $DOC_DIR/Addendum.md --output $PDF_DIR/lbc1689-Addendum.pdf
 pandoc --standalone $DOC_DIR/Addendum.md --to html --output $HTML_DIR/lbc1689-Addendum
 
 # Build one combined PDF files
-pandoc $DOC_DIR/OpeningThoughts.md $DOC_DIR/lbc1689-index.md $DOC_DIR/lbc1689-introduction.md $(ls $DOC_DIR/lbc1689-ch*.md) $DOC_DIR/lbc1689-signatories.md $DOC_DIR/Addendum.md --output $PDF_DIR/lbc1689-aab.pdf
+pandoc $DOC_DIR/OpeningThoughts.md $DOC_DIR/lbc1689-toc.md $DOC_DIR/lbc1689-introduction.md $(ls $DOC_DIR/lbc1689-ch*.md) $DOC_DIR/lbc1689-signatories.md $DOC_DIR/Addendum.md --output $PDF_DIR/lbc1689-aab.pdf
 
 echo "list $DOC_DIR"
 ls -alR $DOC_DIR
