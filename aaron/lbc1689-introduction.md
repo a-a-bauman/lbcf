@@ -1,7 +1,5 @@
 # Introduction — The 1689 Baptist Confession of Faith
 
-## Introduction
-
 ## To the Judicial and Impartial Reader,
 
 Courteous Reader: It is now many years since divers of us (with other sober Christians then living, and walking in the way of the Lord, that we profess) did conceive ourselves to be under a necessity of publishing a Confession, of our Faith, for the information and satisfaction of those that did not thoroughly understand what our principles were, or had entertained prejudices against our profession, by reason of the strange representation of them by some men of note who had taken very wrong measures, and accordingly led others into misapprehension of us and them. And this was first put forth about the year 1643, in the name of seven congregations then gathered in London; since which time divers impressions thereof have been dispersed abroad, and our end proposed in good measure answered, inasmuch as many (and some of those men eminent both for piety and learning) were thereby satisfied that we were no way guilty of those heterodoxies and fundamental errors which had too frequently been charged upon us without ground or occasion given on our part. 
