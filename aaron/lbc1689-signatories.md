@@ -118,6 +118,3 @@ _Pastor, Houndsditch, London_
 _Pastor, Hock-Norton, Oxon_
 
 In the name of and on the behalf of the whole assembly.
-
-### [Back to Chapter Index](lbc1689-toc)
-### [Of the Last Judgement](lbc1689-ch32)
