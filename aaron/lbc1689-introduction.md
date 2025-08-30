@@ -20,5 +20,5 @@ We shall conclude with our earnest prayer that the God of all grace will pour ou
 
 ---
 
-### [Back to Chapter Index](lbc1689-index)
+### [Back to Chapter Index](lbc1689-toc)
 ### [Of the Holy Scriptures](lbc1689-ch01)

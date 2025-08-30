@@ -1,4 +1,4 @@
-# Index — The 1689 Baptist Confession of Faith
+# Table of Contents — The 1689 Baptist Confession of Faith
 
 ## [Opening Thoughts](OpeningThoughts)
 ## [Introduction](lbc1689-introduction)

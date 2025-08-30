@@ -36,4 +36,4 @@ I have tried to exercise due diligence to understand each paragraph and confirm 
 
 I placed a check mark beside those items that I affirm. For those items that I differ, am not sure about, or where I need further qualifications, I placed a footnote. The footnotes provide my differences and a justification for them. I did likewise with the qualifications.
 
-### [Back to Chapter Index](lbc1689-index)
+### [Back to Chapter Index](lbc1689-toc)
