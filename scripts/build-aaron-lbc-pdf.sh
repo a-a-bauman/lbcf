@@ -16,20 +16,20 @@ mkdir -p "$HTML_DIR"
 TEMP_MD="$BUILD_DIR/lbc1689_aab.md"
 
 cat $DOC_DIR/OpeningThoughts.md >> $TEMP_MD
-pandoc $DOC_DIR/OpeningThoughts.md -o $PDF_DIR/OpeningThoughts.pdf
-pandoc $DOC_DIR/OpeningThoughts.md -o $HTML_DIR/OpeningThoughts
+pandoc $DOC_DIR/OpeningThoughts.md --output $PDF_DIR/OpeningThoughts.pdf
+pandoc $DOC_DIR/OpeningThoughts.md --to html --output $HTML_DIR/OpeningThoughts
 printf "\n\n" >> $TEMP_MD
 
 cat $DOC_DIR/lbc1689-index.md >> $TEMP_MD
-pandoc $DOC_DIR/lbc1689-index.md -o $PDF_DIR/lbc1689-index.pdf
-pandoc $DOC_DIR/lbc1689-index.md -o $HTML_DIR/lbc1689-index
+pandoc $DOC_DIR/lbc1689-index.md --output $PDF_DIR/lbc1689-index.pdf
+pandoc $DOC_DIR/lbc1689-index.md --to html --output $HTML_DIR/lbc1689-index
 printf "\n\n" >> $TEMP_MD
 
 # Add the introduction
 echo "# Introduction" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-introduction.md >> $TEMP_MD
-pandoc $DOC_DIR/lbc1689-introduction.md -o $PDF_DIR/lbc1689-introduction.pdf
-pandoc $DOC_DIR/lbc1689-introduction.md -o $HTML_DIR/lbc1689-introduction
+pandoc $DOC_DIR/lbc1689-introduction.md --output $PDF_DIR/lbc1689-introduction.pdf
+pandoc $DOC_DIR/lbc1689-introduction.md --to html --output $HTML_DIR/lbc1689-introduction
 echo "\n\n" >> $TEMP_MD
 
 # Concatenate all chapter files
@@ -40,20 +40,20 @@ for chapter in $DOC_DIR/lbc1689-ch*.md; do
     echo "\newpage" >> $TEMP_MD
     cat "$chapter" >> $TEMP_MD
     echo "\n\n" >> $TEMP_MD
-    pandoc $chapter -o "$PDF_DIR/lbc1689-ch$padded_index.pdf"
-    pandoc $chapter -o "$HTML_DIR/lbc1689-ch$padded_index"
+    pandoc $chapter --output "$PDF_DIR/lbc1689-ch$padded_index.pdf"
+    pandoc $chapter --to html --output "$HTML_DIR/lbc1689-ch$padded_index"
 done
 
 echo "# Signatories" >> $TEMP_MD
 cat $DOC_DIR/lbc1689-signatories.md >> $TEMP_MD
-pandoc $DOC_DIR/lbc1689-signatories.md -o $PDF_DIR/lbc1689-signatories.pdf
-pandoc $DOC_DIR/lbc1689-signatories.md -o $HTML_DIR/lbc1689-signatories
+pandoc $DOC_DIR/lbc1689-signatories.md --output $PDF_DIR/lbc1689-signatories.pdf
+pandoc $DOC_DIR/lbc1689-signatories.md --to html --output $HTML_DIR/lbc1689-signatories
 echo "\n\n" >> $TEMP_MD
 
 echo "# Addendums" >> $TEMP_MD
 cat $DOC_DIR/Addendum.md >> $TEMP_MD
-pandoc $DOC_DIR/Addendum.md -o $PDF_DIR/lbc1689-Addendums.pdf
-pandoc $DOC_DIR/Addendum.md -o $HTML_DIR/lbc1689-Addendums
+pandoc $DOC_DIR/Addendum.md --output $PDF_DIR/lbc1689-Addendums.pdf
+pandoc $DOC_DIR/Addendum.md --to html --output $HTML_DIR/lbc1689-Addendums
 
 echo "list $DOC_DIR"
 ls -alR $DOC_DIR
@@ -61,4 +61,4 @@ echo "list $BUILD_DIR"
 ls -alR $BUILD_DIR
 
 # Convert the combined markdown file to PDF using pandoc
-#pandoc $TEMP_MD -o $OUTPUT_PDF
+#pandoc $TEMP_MD --output $OUTPUT_PDF
