@@ -39,7 +39,7 @@ jobs:
         run: |
           sudo apt-get update
           # Download packages to our cache directory
-          sudo apt-get install -y --download-only texlive-latex-recommended pandoc
+          sudo apt-get install -y texlive-latex-recommended pandoc
           # Copy downloaded packages to our cache directory
           mkdir -p ~/apt-cache
           sudo cp /var/cache/apt/archives/*.deb ~/apt-cache/
