@@ -5,14 +5,12 @@ init() {
   ROOT_DIR=.
   BUILD_DIR="$ROOT_DIR/build"
   STAGING_DIR="$BUILD_DIR/stagingHtml"
-  PDF_DIR="$BUILD_DIR/pdf"
   HTML_DIR="$BUILD_DIR/html"
   DOC_DIR="$ROOT_DIR/aaron"
   GENERATED_PDF="$BUILD_DIR/lbc1689-aab.pdf"
   TEMP_MD="$BUILD_DIR/temp.md"
 
   mkdir -p ${STAGING_DIR}
-  mkdir -p ${PDF_DIR}
   mkdir -p ${HTML_DIR}
 }
 
@@ -52,7 +50,7 @@ prepareMarkdownForPdf() {
   initStagingDir
   for doc in "${STAGING_DIR}"/*.md; do
     rm -f ${TEMP_MD}
-    echo -e "\newpage\n\n" >> ${TEMP_MD}
+    echo -e "\\newpage\n\n" >> ${TEMP_MD}
     cat "${doc}" >> ${TEMP_MD}
     mv ${TEMP_MD} "${doc}"
   done
@@ -68,3 +66,4 @@ buildPdf() {
 init
 buildHtml
 buildPdf
+rm rf $STAGING_DIR
