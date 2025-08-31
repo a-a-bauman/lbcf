@@ -31,8 +31,8 @@ prepareMarkdownForHtml() {
 
 buildHtml() {
   prepareMarkdownForHtml
-  pandoc --standalone $STAGING_DIR/aab-TitlePage.md --to html --output $HTML_DIR/TitlePage
-  pandoc --standalone $STAGING_DIR/aab-OpeningThoughts.md --to html --output $HTML_DIR/OpeningThoughts
+  pandoc --standalone $STAGING_DIR/aab-TitlePage.md --to html --output $HTML_DIR/aab-TitlePage
+  pandoc --standalone $STAGING_DIR/aab-OpeningThoughts.md --to html --output $HTML_DIR/aab-OpeningThoughts
   pandoc --standalone $STAGING_DIR/lbc1689-toc.md --to html --output $HTML_DIR/lbc1689-toc
   pandoc --standalone $STAGING_DIR/lbc1689-introduction.md --to html --output $HTML_DIR/lbc1689-introduction
   # Concatenate all chapter files
@@ -43,7 +43,7 @@ buildHtml() {
       pandoc --standalone "${chapter}" --to html --output "$HTML_DIR/lbc1689-ch$padded_index"
   done
   pandoc --standalone $STAGING_DIR/lbc1689-signatories.md --to html --output $HTML_DIR/lbc1689-signatories
-  pandoc --standalone $STAGING_DIR/aab-Addendum.md --to html --output $HTML_DIR/Addendum
+  pandoc --standalone $STAGING_DIR/aab-Addendum.md --to html --output $HTML_DIR/aab-Addendum
 }
 
 prepareMarkdownForPdf() {

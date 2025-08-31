@@ -6,6 +6,7 @@ In addition, I authored a section entitled _Opening Thoughts_. It contains my te
 
 Aaron A. Bauman, August 30, 2025
 
+* [Title Page (Aaron Bauman)](aab-TitlePage)
 * [Opening Thoughts (Aaron Bauman)](aab-OpeningThoughts)
 * The 1689 Baptist Confession of Faith (includes annotations by Aaron Bauman)
   * [Introduction](lbc1689-introduction)
