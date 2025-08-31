@@ -27,7 +27,7 @@ jobs:
         id: cache-apt
         with:
           path: |
-            /var/cache/apt/archives/*.deb
+            ~/apt-cache
           key: ${{ runner.os }}-apt-texlive-pandoc-${{ hashFiles('.github/workflows/**') }}
           restore-keys: |
             ${{ runner.os }}-apt-texlive-pandoc-
@@ -38,7 +38,18 @@ jobs:
         if: steps.cache-apt.outputs.cache-hit != 'true'
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-latex-recommended pandoc
+          # Download packages to our cache directory
+          sudo apt-get install -y --download-only texlive-latex-recommended pandoc
+          # Copy downloaded packages to our cache directory
+          mkdir -p ~/apt-cache
+          sudo cp /var/cache/apt/archives/*.deb ~/apt-cache/
+
+      # Install from cache if available
+      - name: Install from cache
+        if: steps.cache-apt.outputs.cache-hit == 'true'
+        run: |
+          sudo dpkg -i ~/apt-cache/*.deb || true
+          sudo apt-get install -f -y  # Fix any dependency issues
 
       # Ensure packages are available even with cache hit
       - name: Verify installations
