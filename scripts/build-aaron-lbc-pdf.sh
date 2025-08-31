@@ -24,7 +24,7 @@ initStagingDir() {
 prepareMarkdownForHtml() {
   initStagingDir
   for doc in "${STAGING_DIR}"/*.md; do
-    rm ${TEMP_MD}
+    rm -f ${TEMP_MD}
     cat "${doc}" >> ${TEMP_MD}
     echo -e "\n\n[Table of Contents](lbc1689-toc)" >> ${TEMP_MD}
     mv ${TEMP_MD} "${doc}"
@@ -51,7 +51,7 @@ buildHtml() {
 prepareMarkdownForPdf() {
   initStagingDir
   for doc in "${STAGING_DIR}"/*.md; do
-    rm ${TEMP_MD}
+    rm -f ${TEMP_MD}
     echo -e "\newpage\n\n" >> ${TEMP_MD}
     cat "${doc}" >> ${TEMP_MD}
     mv ${TEMP_MD} "${doc}"
