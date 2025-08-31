@@ -17,7 +17,7 @@ init() {
 }
 
 initStagingDir() {
-  rm ${STAGING_DIR}/*
+  rm ${STAGING_DIR}/*.md
   cp ${DOC_DIR}/*.md ${STAGING_DIR}
 }
 
