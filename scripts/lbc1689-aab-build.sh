@@ -50,7 +50,7 @@ prepareMarkdownForPdf() {
   initStagingDir
   for doc in "${STAGING_DIR}"/*.md; do
     rm -f ${TEMP_MD}
-    echo '\\newpage' >> ${TEMP_MD}
+    echo '\newpage' >> ${TEMP_MD}
     echo -e "\n\n" >> ${TEMP_MD}
     cat "${doc}" >> ${TEMP_MD}
     mv ${TEMP_MD} "${doc}"
