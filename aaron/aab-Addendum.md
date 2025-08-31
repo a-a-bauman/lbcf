@@ -1,4 +1,4 @@
-# Addendum to London Baptist Confession of 1689
+# Addendum to The 1689 Baptist Confession of Faith by Aaron Bauman
 
 # Of Cessationism
 

@@ -1,14 +1,10 @@
-# The Doctrinal Statement of Aaron Bauman
-
-August 29, 2025
-
 ## Personal Testimony
 
 God, in his kind providence, saved my parents when I was about eleven years old. As God radically transformed my parents, He graciously worked on my heart. My Dad regularly led our family in devotions. He also took us to church whenever the doors were open. At an evangelistic service, the Lord deeply convicted me that I was a sinner and stood condemned before God. I responded to this knowledge as best I knew. I felt deep shame about my sin, however, I did not understand the sufficiency of Christ's substitutionary sacrifice. Thankfully, the Lord granted me a hunger for his Word and prayer and a desire to follow my Dad's leadership.
 
 As the Lord opened the Scriptures to me, my conscience grew in its awareness of my desperate sinfulness. Even my motivations were often corrupted by selfish pride and ambition. I came to understand that the key to salvation was faith in Christ. So I embraced faith in Christ and was baptized in a country stream. But because I believed that I could lose my salvation, I had no assurance of being able to stand before the Lord without being condemned. After all, God's word kept revealing my sin. The Lord didn't allow my conscience to rest easy by dismissing most of my sins as just "small" ones. After all, it only took one bite from the fruit of the forbidden tree for Adam and Eve to be banished from the Garden and to plunge the world into despair. What hope was there for me?
 
- I resolved to try harder to walk worthy of the calling to which God had called me. But even that did not lead to peace and assurance. By continually reading the Bible, the Lord kept showing me how sinful I was even with all my efforts to walk as he commanded. Occassionally, the Lord kindly gave me glimpses that I needed to walk by faith. But even my faith was fickle. I kept missing that salvation is of the Lord.
+ I resolved to try harder to walk worthy of the calling to which God had called me. But even that did not lead to peace and assurance. By continually reading the Bible, the Lord kept showing me how sinful I was even with all my efforts to walk as he commanded. Occasionally, the Lord kindly gave me glimpses that I needed to walk by faith. But even my faith was fickle. I kept missing that salvation is of the Lord.
 
 As I continued pursuing to know the Lord, he kindly brought my future wife into my life. Shortly after marrying Carol, the Lord warmed my heart with the knowledge that Christ is the one that atones for sinners. This brought peace. But that didn't last because I still believed that I could lose my salvation.
 
@@ -22,15 +18,15 @@ Knowing that I am justified and always will be because of what Christ has done o
 
 TODO: talk about sanctification being his work from beginning to end.
 
-## Why Use the Second London Baptist Confession of 1689
+## Why Use The 1689 Baptist Confession of Faith
 
 There is nothing wrong with writing one's own doctrinal statement. In fact, the rigors of that exercise would be very beneficial provided that one goes about it with much study and due diligence. That was my original approach. While doing so, it became quite tedious to compile all of the pieces especially if I want them to have my "voice." At some point, it becomes really hard to not copy major portions from other godly men that have written systematic theologies. If I were to copy large portions from existing systematic theologies it would be because I acknowledge that they have often been refined over a long period of time through tweaking words and phrases to precisely state a doctrine. Furthermore, in theology, it's rarely if ever good to be novel. Theological novelty often leads a person into heresy. My goal is to eventually create my own doctrinal statement.
 
 Another approach is to base one's doctrinal statement on another person's doctrinal statement or on one of the major confessions. I chose the later. Not only is there precedent for doing this, there is a certain level of safety since these things have been considered over several years by various men. Some confessions have stood the test of time for centuries. 
 
-I've chosen to base my doctrinal statement on the London Baptist Confession of 1689. It's not that it or any other creed or confession is inerrant, inspired, or a final authority. But neither is any person's doctrinal statement. Only the original autographs of the Scriptures are inerrant. The London Baptist Confession of 1689 provides enough details about first order theological items to determine whether a potential candidate passes a minimum level of orthodoxy. Since the London Baptist Confession covers some second order items, it provides the opportunity for a candidate to be evaluated on some of those items also. 
+I've chosen to base my doctrinal statement on The 1689 Baptist Confession of Faith. It's not that it or any other creed or confession is inerrant, inspired, or a final authority. But neither is any person's doctrinal statement. Only the original autographs of the Scriptures are inerrant. The 1689 Baptist Confession of Faith provides enough details about first order theological items to determine whether a potential candidate passes a minimum level of orthodoxy. Since The 1689 Baptist Confession of Faith covers some second order items, it provides the opportunity for a candidate to be evaluated on some of those items also. 
 
-Unfortunately, since the London Baptist Confession of 1689 contains older English, there is the possibility of certain words and phrases being misunderstood by our modern ears. Founders Ministries has done the church a favor by publishing a [Modern English version of the London Baptist Confression of 1689](https://founders.org/library/chapter-1-the-holy-scriptures/). Referencing that updated version can help overcome misunderstandings due to older words and phrases.
+Unfortunately, since The 1689 Baptist Confession of Faith contains older English, there is the possibility of certain words and phrases being misunderstood by our modern ears. Founders Ministries has done the church a favor by publishing a [Modern English version of The 1689 Baptist Confession of Faith](https://founders.org/library/chapter-1-the-holy-scriptures/). Referencing that updated version can help overcome misunderstandings due to older words and phrases.
 
 I have tried to exercise due diligence to understand each paragraph and confirm that the Scriptural references for each paragraph in this confession do verify the doctrinal position of that theological point or points.
 
