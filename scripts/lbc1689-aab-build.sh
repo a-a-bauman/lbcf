@@ -66,4 +66,4 @@ buildPdf() {
 init
 buildHtml
 buildPdf
-rm rf $STAGING_DIR
+rm -rf $STAGING_DIR
