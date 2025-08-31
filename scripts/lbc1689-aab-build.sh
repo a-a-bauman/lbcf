@@ -62,7 +62,7 @@ prepareMarkdownForPdf() {
 
 buildPdf() {
   prepareMarkdownForPdf
-  pandoc $DOC_DIR/aab-TitlePage.md $DOC_DIR/aab-OpeningThoughts.md $DOC_DIR/lbc1689-toc.md $DOC_DIR/lbc1689-introduction.md "$(ls $DOC_DIR/lbc1689-ch*.md)" $DOC_DIR/lbc1689-signatories.md $DOC_DIR/aab-Addendum.md --output $GENERATED_PDF
+  pandoc $STAGING_DIR/aab-TitlePage.md $STAGING_DIR/aab-OpeningThoughts.md $STAGING_DIR/lbc1689-toc.md $STAGING_DIR/lbc1689-introduction.md $(ls $STAGING_DIR/lbc1689-ch*.md) $STAGING_DIR/lbc1689-signatories.md $STAGING_DIR/aab-Addendum.md --output $GENERATED_PDF
 }
 
 init
