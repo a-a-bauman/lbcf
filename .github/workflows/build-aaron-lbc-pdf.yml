@@ -28,7 +28,7 @@ jobs:
         with:
           path: |
             ~/apt-cache
-          key: ${{ runner.os }}-apt-texlive-pandoc-${{ hashFiles('.github/workflows/**') }}
+          key: ${{ runner.os }}-apt-texlive-pandoc-
           restore-keys: |
             ${{ runner.os }}-apt-texlive-pandoc-
             ${{ runner.os }}-apt-
