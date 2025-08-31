@@ -1,3 +1,11 @@
 .highlight, mark {
     background-color: yellow;
 }
+
+@media print {
+    mark {
+        background-color: yellow !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+}
