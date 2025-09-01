@@ -6,8 +6,10 @@ In addition, I authored a section entitled _Opening Thoughts_. It contains my te
 
 Aaron A. Bauman, August 30, 2025
 
-* [Title Page (Aaron Bauman)](aab-TitlePage)
-* [Opening Thoughts (Aaron Bauman)](aab-OpeningThoughts)
+* [Title Page](aab-TitlePage)
+* [Salvation Testimony](aab-Testimony)
+* [Calling](aab-Calling)
+* [Prologue](aab-Prologue.md)
 * The 1689 Baptist Confession of Faith (includes annotations by Aaron Bauman)
   * [Introduction](lbc1689-introduction)
   * [Chapter 1 — Of the Holy Scriptures](lbc1689-ch01)
@@ -43,4 +45,4 @@ Aaron A. Bauman, August 30, 2025
   * [Chapter 31 — Of the State of Man After Death, and of the Resurrection of the Dead](lbc1689-ch31)
   * [Chapter 32 — Of the Last Judgement](lbc1689-ch32)
   * [Signatories](lbc1689-signatories)
-* [Addendum (Aaron Bauman)](aab-Addendum)
+* [Addendum](aab-Addendum)

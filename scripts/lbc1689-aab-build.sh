@@ -33,8 +33,10 @@ prepareMarkdownForHtml() {
 buildHtml() {
   prepareMarkdownForHtml
   pandoc --standalone $STAGING_DIR/aab-TitlePage.md --from markdown+mark --to html --output $HTML_DIR/aab-TitlePage --css $STYLES_DIR/styles.css
-  pandoc --standalone $STAGING_DIR/aab-OpeningThoughts.md --from markdown+mark --to html --output $HTML_DIR/aab-OpeningThoughts --css $STYLES_DIR/styles.css
   pandoc --standalone $STAGING_DIR/lbc1689-toc.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-toc --css $STYLES_DIR/styles.css
+  pandoc --standalone $STAGING_DIR/aab-Testimony.md --from markdown+mark --to html --output $HTML_DIR/aab-Testimony --css $STYLES_DIR/styles.css
+  pandoc --standalone $STAGING_DIR/aab-Calling.md --from markdown+mark --to html --output $HTML_DIR/aab-Calling --css $STYLES_DIR/styles.css
+  pandoc --standalone $STAGING_DIR/aab-Prologue.md --from markdown+mark --to html --output $HTML_DIR/aab-Prologue --css $STYLES_DIR/styles.css
   pandoc --standalone $STAGING_DIR/lbc1689-introduction.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-introduction --css $STYLES_DIR/styles.css
   # Concatenate all chapter files
   index=0
@@ -62,7 +64,17 @@ prepareMarkdownForPdf() {
 
 buildPdf() {
   prepareMarkdownForPdf
-  pandoc $STAGING_DIR/aab-TitlePage.md $STAGING_DIR/lbc1689-toc.md $STAGING_DIR/aab-OpeningThoughts.md $STAGING_DIR/lbc1689-introduction.md $(ls $STAGING_DIR/lbc1689-ch*.md) $STAGING_DIR/lbc1689-signatories.md $STAGING_DIR/aab-Addendum.md --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css
+  pandoc \
+      $STAGING_DIR/aab-TitlePage.md \
+      $STAGING_DIR/lbc1689-toc.md \
+      $STAGING_DIR/aab-Testimony.md \
+      $STAGING_DIR/aab-Calling.md \
+      $STAGING_DIR/aab-Prologue.md \
+      $STAGING_DIR/lbc1689-introduction.md \
+      $(ls $STAGING_DIR/lbc1689-ch*.md) \
+      $STAGING_DIR/lbc1689-signatories.md \
+      $STAGING_DIR/aab-Addendum.md \
+      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css
 }
 
 init

@@ -8,5 +8,4 @@ _with annotations and clarifications by Aaron Bauman_
 
 I, Aaron A. Bauman, affirm all the chapters of _The 1689 Baptist Confession of Faith_ **with** the annotations, clarifications, and addendum I have added. I do so understanding that this Confession is not a perfect nor inspired document. I believe it is a faithful summary of biblical doctrine. Where I have added annotations or clarifications, I have done so to ensure that my doctrinal statement is as accurate as possible according to Scripture.
 
-I make this affirmation on August 30, 2025.
-
+I make this affirmation on August 31, 2025.
