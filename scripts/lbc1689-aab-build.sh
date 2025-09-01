@@ -83,7 +83,11 @@ buildPdf() {
       $(ls $STAGING_DIR/lbc1689-ch*.md) \
       $STAGING_DIR/lbc1689-signatories.md \
       $STAGING_DIR/aab-Addendum.md \
-      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION" --include-in-header=$STYLES_DIR/header.tex
+      --from markdown+mark \
+      --output $GENERATED_PDF \
+      --variable date="$(date +'%B %d, %Y')" \
+      --variable version="$VERSION" \
+      --include-in-header=$STYLES_DIR/header.tex
 }
 
 init
