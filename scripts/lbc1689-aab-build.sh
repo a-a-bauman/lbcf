@@ -34,21 +34,21 @@ prepareMarkdownForHtml() {
 
 buildHtml() {
   prepareMarkdownForHtml
-  pandoc --standalone $STAGING_DIR/aab-TitlePage.md --from markdown+mark --to html --output $HTML_DIR/aab-TitlePage --css $STYLES_DIR/styles.css --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION"
-  pandoc --standalone $STAGING_DIR/lbc1689-toc.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-toc --css $STYLES_DIR/styles.css
-  pandoc --standalone $STAGING_DIR/aab-Testimony.md --from markdown+mark --to html --output $HTML_DIR/aab-Testimony --css $STYLES_DIR/styles.css
-  pandoc --standalone $STAGING_DIR/aab-Calling.md --from markdown+mark --to html --output $HTML_DIR/aab-Calling --css $STYLES_DIR/styles.css
-  pandoc --standalone $STAGING_DIR/aab-Prologue.md --from markdown+mark --to html --output $HTML_DIR/aab-Prologue --css $STYLES_DIR/styles.css
-  pandoc --standalone $STAGING_DIR/lbc1689-introduction.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-introduction --css $STYLES_DIR/styles.css
+  pandoc --standalone $STAGING_DIR/aab-TitlePage.md --from markdown+mark --to html --output $HTML_DIR/aab-TitlePage --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION"
+  pandoc --standalone $STAGING_DIR/lbc1689-toc.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-toc --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
+  pandoc --standalone $STAGING_DIR/aab-Testimony.md --from markdown+mark --to html --output $HTML_DIR/aab-Testimony --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
+  pandoc --standalone $STAGING_DIR/aab-Calling.md --from markdown+mark --to html --output $HTML_DIR/aab-Calling --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
+  pandoc --standalone $STAGING_DIR/aab-Prologue.md --from markdown+mark --to html --output $HTML_DIR/aab-Prologue --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
+  pandoc --standalone $STAGING_DIR/lbc1689-introduction.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-introduction --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
   # Concatenate all chapter files
   index=0
   for chapter in "$STAGING_DIR"/lbc1689-ch*.md; do
       index=$((index + 1))
       padded_index=$(printf "%02d" $index)
-      pandoc --standalone "${chapter}" --from markdown+mark --to html --output "$HTML_DIR/lbc1689-ch$padded_index" --css $STYLES_DIR/styles.css
+      pandoc --standalone "${chapter}" --from markdown+mark --to html --output "$HTML_DIR/lbc1689-ch$padded_index" --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
   done
-  pandoc --standalone $STAGING_DIR/lbc1689-signatories.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-signatories --css $STYLES_DIR/styles.css
-  pandoc --standalone $STAGING_DIR/aab-Addendum.md --from markdown+mark --to html --output $HTML_DIR/aab-Addendum --css $STYLES_DIR/styles.css
+  pandoc --standalone $STAGING_DIR/lbc1689-signatories.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-signatories --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
+  pandoc --standalone $STAGING_DIR/aab-Addendum.md --from markdown+mark --to html --output $HTML_DIR/aab-Addendum --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua
 }
 
 prepareMarkdownForPdf() {
@@ -76,7 +76,7 @@ buildPdf() {
       $(ls $STAGING_DIR/lbc1689-ch*.md) \
       $STAGING_DIR/lbc1689-signatories.md \
       $STAGING_DIR/aab-Addendum.md \
-      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css  --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION" --include-in-header=$STYLES_DIR/header.tex
+      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css --lua-filter=$STYLES_DIR/highlight-colors.lua --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION" --include-in-header=$STYLES_DIR/header.tex
 }
 
 init
