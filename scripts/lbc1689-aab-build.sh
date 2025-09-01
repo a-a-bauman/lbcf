@@ -74,7 +74,7 @@ buildPdf() {
       $(ls $STAGING_DIR/lbc1689-ch*.md) \
       $STAGING_DIR/lbc1689-signatories.md \
       $STAGING_DIR/aab-Addendum.md \
-      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css
+      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css --pdf-engine-opt=-maxlistdepth=20
 }
 
 init
