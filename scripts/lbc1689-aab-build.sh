@@ -25,7 +25,7 @@ initStagingDir() {
 prepareCommonToBoth() {
   initStagingDir
   DATE=$(date +'%B %d, %Y')
-  sed -i.bak "s/\$date\$/${DATE}/g; s/\$version\$/${VERSION}/g" "$STAGING_DIR/aab-TitlePage.md"
+  sed -i.bak 's/\$date\$/'"${DATE}"'/g; s/\$version\$/'"${VERSION}/g" "$STAGING_DIR/aab-TitlePage.md"
   rm "$STAGING_DIR/aab-TitlePage.md.bak"
 }
 
