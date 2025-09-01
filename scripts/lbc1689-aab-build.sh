@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+VERSION=$1
+
 init() {
   ROOT_DIR=.
   BUILD_DIR="$ROOT_DIR/build"
@@ -32,7 +34,7 @@ prepareMarkdownForHtml() {
 
 buildHtml() {
   prepareMarkdownForHtml
-  pandoc --standalone $STAGING_DIR/aab-TitlePage.md --from markdown+mark --to html --output $HTML_DIR/aab-TitlePage --css $STYLES_DIR/styles.css
+  pandoc --standalone $STAGING_DIR/aab-TitlePage.md --from markdown+mark --to html --output $HTML_DIR/aab-TitlePage --css $STYLES_DIR/styles.css --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION"
   pandoc --standalone $STAGING_DIR/lbc1689-toc.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-toc --css $STYLES_DIR/styles.css
   pandoc --standalone $STAGING_DIR/aab-Testimony.md --from markdown+mark --to html --output $HTML_DIR/aab-Testimony --css $STYLES_DIR/styles.css
   pandoc --standalone $STAGING_DIR/aab-Calling.md --from markdown+mark --to html --output $HTML_DIR/aab-Calling --css $STYLES_DIR/styles.css
@@ -74,7 +76,7 @@ buildPdf() {
       $(ls $STAGING_DIR/lbc1689-ch*.md) \
       $STAGING_DIR/lbc1689-signatories.md \
       $STAGING_DIR/aab-Addendum.md \
-      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css --pdf-engine-opt=-maxlistdepth=20
+      --from markdown+mark --output $GENERATED_PDF --css $STYLES_DIR/styles.css  --variable date="$(date +'%B %d, %Y')" --variable version="$VERSION"
 }
 
 init
