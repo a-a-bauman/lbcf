@@ -25,7 +25,7 @@ jobs:
         run: |
           sudo apt-get update
           # Download packages to our cache directory
-          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra pandoc
+          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-xetex pandoc
           # Copy downloaded packages to our cache directory
 
       - name: Verify installations
