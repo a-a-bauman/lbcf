@@ -24,13 +24,13 @@ initStagingDir() {
 
 prepareCommonToBoth() {
   initStagingDir
-  DATE=$(date +'%B %d, %Y')
+  DATE="$(date +'%B %d, %Y')"
+  echo "Setting Title Page date to ${DATE} and version to ${VERSION}"
   sed -i.bak 's/\$date\$/'"${DATE}"'/g; s/\$version\$/'"${VERSION}/g" "$STAGING_DIR/aab-TitlePage.md"
-  rm "$STAGING_DIR/aab-TitlePage.md.bak"
+  rm -f "$STAGING_DIR/aab-TitlePage.md.bak"
 }
 
-prepareMarkdownForHtml() {
-  prepareCommonToBoth
+formatEachChapterWithTocLink() {
   for doc in "${STAGING_DIR}"/*.md; do
     rm -f ${TEMP_MD}
     cat "${doc}" >> ${TEMP_MD}
@@ -39,7 +39,13 @@ prepareMarkdownForHtml() {
   done
 }
 
+prepareMarkdownForHtml() {
+  prepareCommonToBoth
+  formatEachChapterWithTocLink
+}
+
 buildHtml() {
+  echo "Generating HTML"
   prepareMarkdownForHtml
   pandoc --standalone $STAGING_DIR/aab-TitlePage.md --from markdown+mark --to html --output $HTML_DIR/aab-TitlePage --css $STYLES_DIR/styles.css
   pandoc --standalone $STAGING_DIR/lbc1689-toc.md --from markdown+mark --to html --output $HTML_DIR/lbc1689-toc --css $STYLES_DIR/styles.css
@@ -58,20 +64,26 @@ buildHtml() {
   pandoc --standalone $STAGING_DIR/aab-Addendum.md --from markdown+mark --to html --output $HTML_DIR/aab-Addendum --css $STYLES_DIR/styles.css
 }
 
-prepareMarkdownForPdf() {
-  prepareCommonToBoth
+formatEachChapterWithPageBreakExceptTitlePage() {
   for doc in "${STAGING_DIR}"/*.md; do
+    if [[ "${doc}" == "aab-TitlePage.md" ]]; then
+      continue
+    fi
     rm -f ${TEMP_MD}
     echo '\newpage' >> ${TEMP_MD}
     echo -e "\n\n" >> ${TEMP_MD}
     cat "${doc}" >> ${TEMP_MD}
     mv ${TEMP_MD} "${doc}"
   done
-  # Do not want to begin the Title Page with a new page
-  cp $DOC_DIR/aab-TitlePage.md $STAGING_DIR
+}
+
+prepareMarkdownForPdf() {
+  prepareCommonToBoth
+  formatEachChapterWithPageBreakExceptTitlePage
 }
 
 buildPdf() {
+  echo "Generating PDF"
   prepareMarkdownForPdf
   pandoc \
       $STAGING_DIR/aab-TitlePage.md \
