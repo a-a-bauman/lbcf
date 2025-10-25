@@ -3,11 +3,11 @@ name: Build PDF and HTML for Aaron Bauman's Doctrinal Statement
 on:
   push:
     branches:
-      - main
+      - develop
       - add-footnotes
   pull_request:
     branches:
-      - main
+      - develop
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
