@@ -1,0 +1,45 @@
+name: Build PDF and HTML for Aaron Bauman's Doctrinal Statement
+
+on:
+  push:
+    branches:
+      - develop
+      - add-footnotes
+  pull_request:
+    branches:
+      - develop
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          # Download packages to our cache directory
+          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra pandoc
+          # Copy downloaded packages to our cache directory
+
+      - name: Verify installations
+        run: |
+          which pandoc
+          which pdflatex
+
+      - name: Run PDF generation script
+        run: |
+          chmod +x scripts/lbc1689-aab-build.sh
+          scripts/lbc1689-aab-build.sh ${{ github.run_number }} 
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: lbc1689-aab-${{ github.run_number }}
+          path: build*/*
