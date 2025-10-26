@@ -21,16 +21,16 @@ Because I simulataneously
 
 I approach this responsibility with a sense of trepidation mixed with the sense that I'm obligated to obey the Lord in this calling. Who is sufficient for these things?[^aab-call-13] If it wasn't for the knowledge that God's grace and his word is sufficient to accomplish his purposes, I wouldn't even consider this calling. All that being said, I covet your prayers that the Lord would continue to work his grace of sanctification in my life, that I would be sober and serious about faithfully studying and growing in my understanding of God's truth and applying it in wisdom to my life, and that I would faithfully communicate God's glorious truth to shepherd the hearts of others in our church, community, and my relationships.
 
-[^aab-call-1]: 1 Corinthians 12:1-11
-[^aab-call-2]: 1 Corinthians 12:12-26
-[^aab-call-3]: 1 Corinthians 12:4-11, 8
-[^aab-call-4]: 1 Corinthians 12:7, 25 Spiritual gifts given for the common good and care of Christ's body
-[^aab-call-5]: Ephesians 4:11
-[^aab-call-6]: Ephesians 4:12-16
-[^aab-call-7]: Acts 20:17, 28-31, Titus 2:1, 2 Timothy 4:2-5
-[^aab-call-8]: 1 Timothy 3:1
-[^aab-call-9]: Romans 10:13-17
-[^aab-call-10]: Acts 13:1-3
-[^aab-call-11]: Titus 1:5
-[^aab-call-12]: Titus 1:6-16
-[^aab-call-13]: 2 Corinthians 2:16
+[^aab-call-1]: [1 Corinthians 12:1-11](https://ref.ly/1%20Corinthians%2012.1%E2%80%9311;esv?t=biblia)
+[^aab-call-2]: [1 Corinthians 12:12-26](https://ref.ly/1%20Corinthians%2012.12%E2%80%9326;esv?t=biblia)
+[^aab-call-3]: [1 Corinthians 12:4-11](https://ref.ly/1%20Corinthians%2012.4%E2%80%9311;esv?t=biblia), [1 Corinthians 12:8](https://ref.ly/1%20Corinthians%2012.8;esv?t=biblia)
+[^aab-call-4]: [1 Corinthians 12:7](https://ref.ly/1%20Corinthians%2012.7;esv?t=biblia), [1 Corinthians 12:25](https://ref.ly/1%20Corinthians%2012.25;esv?t=biblia) Spiritual gifts given for the common good and care of Christ's body
+[^aab-call-5]: [Ephesians 4:11](https://ref.ly/Ephesians%204.11;esv?t=biblia)
+[^aab-call-6]: [Ephesians 4:12-16](https://ref.ly/Ephesians%204.12%E2%80%9316;esv?t=biblia)
+[^aab-call-7]: [Acts 20:17](https://ref.ly/Acts%2020.17;esv?t=biblia), [Acts 20:28-31](https://ref.ly/Acts%2020.28%E2%80%9331;esv?t=biblia); [Titus 2:1](https://ref.ly/Titus%202.1;esv?t=biblia); [2 Timothy 4:2-5](https://ref.ly/2%20Timothy%204.2%E2%80%935;esv?t=biblia)
+[^aab-call-8]: [1 Timothy 3:1](https://ref.ly/1%20Timothy%203.1;esv?t=biblia)
+[^aab-call-9]: [Romans 10:13-17](https://ref.ly/Romans%2010.13%E2%80%9317;esv?t=biblia)
+[^aab-call-10]: [Acts 13:1-3](https://ref.ly/Acts%2013.1%E2%80%933;esv?t=biblia)
+[^aab-call-11]: [Titus 1:5](https://ref.ly/Titus%201.5;esv?t=biblia)
+[^aab-call-12]: [Titus 1:6-16](https://ref.ly/Titus%201.6%E2%80%9316;esv?t=biblia)
+[^aab-call-13]: [2 Corinthians 2:16](https://ref.ly/2%20Corinthians%202.16;esv?t=biblia)
