@@ -67,7 +67,7 @@ All that to say this: if we took the first part of Genesis more seriously, we wo
 
 How much of the core issues of our time would be diagnosed and addressed if we understood and believed the opening chapters of Genesis at face value? How can one understand the gospel and appreciate it without knowing and understanding Genesis 1:1-9:17?
 
-[^Add-Genesis-1:] Much more could be written about this -- at least a book. This is not intended to be exhaustive. It is to say, though, the West is where it is at in large part because of its ignorance, neglect, and rejection of the early part of Genesis. The way forward is to recover an understanding of how God ordered and created his world by studying and contemplating these early chapters of the Bible. Doing so will help us understand reality as God intended. Next, we must repent of the ways we have lived incongruent to that reality followed by trusting in Christ, the Redeemer and Sanctifier of our souls to save and to conform us into his likeness.
+[^Add-Genesis-1]: Much more could be written about this -- at least a book. This is not intended to be exhaustive. It is to say, though, the West is where it is at in large part because of its ignorance, neglect, and rejection of the early part of Genesis. The way forward is to recover an understanding of how God ordered and created his world by studying and contemplating these early chapters of the Bible. Doing so will help us understand reality as God intended. Next, we must repent of the ways we have lived incongruent to that reality followed by trusting in Christ, the Redeemer and Sanctifier of our souls to save and to conform us into his likeness.
 
 ## Of the Sabbath (the Lord's Day)
 
