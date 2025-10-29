@@ -67,48 +67,4 @@ All that to say this: if we took the first part of Genesis more seriously, we wo
 
 How much of the core issues of our time would be diagnosed and addressed if we understood and believed the opening chapters of Genesis at face value? How can one understand the gospel and appreciate it without knowing and understanding Genesis 1:1-9:17?
 
-[^Add-Genesis-1]: Much more could be written about this -- at least a book. This is not intended to be exhaustive. It is to say, though, the West is where it is at in large part because of its ignorance, neglect, and rejection of the early part of Genesis. The way forward is to recover an understanding of how God ordered and created his world by studying and contemplating these early chapters of the Bible. Doing so will help us understand reality as God intended. Next, we must repent of the ways we have lived incongruent to that reality followed by trusting in Christ, the Redeemer and Sanctifier of our souls to save and to conform us into his likeness.
-
-## Of the Sabbath (the Lord's Day)
-
-* Part of the Created Order -- built into creation; not an appendage to God's created order but baked into the very fabric of creation
-* Jesus clarified that the Sabbath was created for man, not man for the Sabbath
-  * God's gift to us
-  * Immediately after creating man, God creates a day of rest for man to devote undistracted time to enjoying and fellowshipping with him
-  * The Lord's Day, being the first day of the week, we begin our week by enjoying the Lord. Adam began his life enjoying his creator. We have the privilge to begin every week enjoying our Lord before we work for him throughout the week
-* If the 10 commandments are God's moral law, how can the Sabbath be dismissed as not required for today?
-  * If God is a God of rest (and work), how do we exhibit that aspect of his character as being created in his image?
-  * Does the New Covenant do away with this created order or simply repurpose it to another day and heighten the celebration by giving us a day to celebrate the One who is our Sabbath rest?
-* The Lord's Day changes the day of rest for the believer
-  * The early church set a precedent for this practice
-    * Choosing the first day of the week coincided with the pivotal event of the church, the resurrection of Jesus Christ. It was the day that they practiced communion, the breaking of the bread together (Acts 20:7). The same word used to describe Paul preaching in the synagogue (Acts 18:4, 19:8) was used to reference what Paul did on the first day of the week (Acts 20:7) (Baker Encyclopedia of the Bible)
-    * A regular cadence pragmatically synchronizes everyone on a schedule so there is no doubt when the church meets. It provides a practical way for everyone to prioritize that gathering
-    * This practice has remained in the church proper for a couple of thousand of years, basically from the beginning
-    * A regular cadence of worship needed to be established (Hebrews refers to not forsaking the assembling of yoursleves). There is an expectation that the church meets regularly for teaching, fellowship, breaking of bread, and prayers (Acts 2:42). Colossians and Ephesians exhorts us to sing to one another which requires being gathered together
-  * Christ is our Sabbath rest (Hebrews)
-    * A sense that he fulfills all of our work. He certainly fulfills our need to do all of God's commands
-    * A sense of anticipation of our eternal rest where we are given glorified bodies no longer encumbered by the sin and its effects
-  * The Lord's Day maintains the created order of one day in seven
-    * How much harm do we do to our spiritual life by ignoring a dedicated day of focusing on Christ our spiritual and eternal rest
-    * How much harm do we do to the rest of our being? What's the wear and tear on our bodies, mind, and emotions?
-    * What's the wear on our society by ignoring God's created order?
-    * What spiritual toll has been exacted on our society by ignoring a Sabbath rest?
-  * Specifics
-    * I'm not as convinced about avoiding all forms of recreation. Properly recreating and in healthy amounts, recreation can be something that recharges a person and can contribute to delighting in the God that gives us all good things to enjoy. On the other hand, recreating for the wrong reasons and inordinate amounts could distract us from growing in the grace and knowledge of God and delighting in him. Therefore, it seems prudent to let the priesthood of each believer and the heads of households determine what is allowable during the Lord's Day, assuming that they have a high view of being with God's people to worship, pray, and be taught. I am concerned, however, when people prioritize athletics and many other non-essential activities over being with God's gathered people on the Lord's Day. That being said, there are appropriate seasons for an individual or a family to escape for a period of rest during a vacation that might keep them from attending a local assembly of believers. But even doing that for prolonged periods of time should become a concern for any child of God. At what point does "restful" and recreational disengagement indicate priorities and desires that no longer align with the priority that Christ has for his church and each person?
-    * We do well to be reminded how Jesus responded to those that accused his disciples of breaking the Sabbath by picking and eating corn. Jesus clarified that the Sabbath was made for man and not man for the Sabbath. In other words, God gave the Sabbath to us. As he rested in his works of creation, we rest in him, our creator. In Christ, we also rest in him our Redeemer. Christ should be our focus and delight when observing the Lord's Day.
-    * Regarding employment activities that require working on the Lord's Day, it is prudent to ask these types of questions.
-      * Is it necessary work or can it wait to be done another day? Examples of necessary work would be some health care jobs and some farming jobs (animals need fed, watered, and milked). Even some of jobs can be flexed to be performed at times that minimizes the impact on the Lord's Day. Example of unnecessary work would be sporting events and entertainment in general.
-      * Is the work under the category of "my ox being in the ditch?"
-      * I think it is best for the individual and heads of households to work through the details of this. However, there would be an appropriate time for the church to confront a member that becomes lax in their gathering with the saints during the Lord's Day.
-  * Objections to keeping the Sabbath
-    * Some cite Paul's comments about letting each be convinced in his own mind regarding sabbath observances as an argument for not observing a Sabbath
-      * Paul referred to sabbaths, plural. In the OT, there was more than the seventh day Sabbath. There were sabbaths throughout the year as part of various feasts and festivals. But those were part of the ceremonial law that find their fulfillment in Christ. 
-    * Some claim that the 10 commandments are not part of God's moral law
-      * However, it seems obvious that all of the other 9 commands are baked into the character of God. Can God be divorced from any of those 9 commands?
-      * Even God rested the seventh day of creation week thereby demonstrating that resting and delighting is part of his character
-      * Jesus pulled his disciples away for a season of rest because the demands of ministry wore on them (Mark 6:30-32)
-      * Christ taught that the Sabbath was created for people
-    * Because the Sabbath finds its fulfillment in Christ as does all the law, we no longer need to observe the Sabbath
-      * True, but if any parts of the law are included in God's moral law, Christ's fulfillment of the moral law doesn't change the requirement for us to obey that law today. After all, we are made in his image to reflect his character. Keeping the law in no way justifies an individual, i.e., declares them righteous. Rather, being justified, sanctified, and endwelt by God's Spirit, we now have the desire and ability to do what pleases God. Because the created order of things and the character of God remain, it is appropriate and fitting that in the NT, the Sabbath shifts to the Lord's Day -- the day when Christ rose from the dead. It provides a day for delighting in him, our resurrected Lord; being exhorted by other believers through singing and fellowship; being equipped by pastor teachers to do the work of the ministry; by anticipating the future perfect rest; by preparing to serve the Lord throughout the week; by acknowledging the goodness of the Lord's design to live in the reality of his wise created order
-      * If the Lord's Day is not the Christian Sabbath, how can the church and its leaders have any expectations for Christians to assemble on that day?
-    * Frankly, I find it odd and strange that we have to work so hard to defend the Lord's Day with fellow believers. Why wouldn't we find a Sabbath day of rest and worship to be a delight coming from a good and wise God for our benefit and his glory? Might our antagonism towards it explain part of the decline and the weakness and lethargy of Christianity in the West?
+[^Add-Genesis-1]: Much more could be written about this &mdash; at least a book. This is not intended to be exhaustive. It is to say that the current state of the West is in large part because of its ignorance, neglect, and rejection of the early part of Genesis. The way forward is to recover an understanding of how God ordered and created his world by studying and contemplating these early chapters of the Bible. Doing so will help us understand reality as God intended. Next, we must repent of the ways we have lived incongruent to that reality followed by trusting in Christ, the Redeemer and Sanctifier of our souls to save and to conform us into his likeness.
