@@ -99,6 +99,9 @@ buildPdf() {
       --output $GENERATED_PDF \
       --variable date="$(date +'%B %d, %Y')" \
       --variable version="$VERSION" \
+      --variable=colorlinks=true \
+      --variable=linkcolor=blue \
+      --variable=urlcolor=blue \
       --include-in-header=$STYLES_DIR/header.tex
 }
 

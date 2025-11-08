@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - develop
-      - add-footnotes
+      - after-elder-review
   pull_request:
     branches:
       - develop
